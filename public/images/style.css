@@ -1,0 +1,31 @@
+body{
+    background: url("bg.png") no-repeat left top, linear-gradient(90deg, #2D349A 44.04%, #FFF 65.77%);
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    height: 100vh;
+}
+
+.login-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.login-form {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

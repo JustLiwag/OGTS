@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body class="bg-stone-300">
+    <div class="flex flex-col">
+        <nav class="flex items-center justify-between bg-white text-white py-4 px-6">
+            <div class="flex items-center space-x-4">
+                <img class="w-12 h-12 md:w-16 md:h-16 rounded-xl" src="plm_logo.png" alt="Logo">
+                <div class="flex flex-col">
+                    <img class="w-80 h-14 md:w-80 md:h-14" src="plm_name.png" alt="Name">
+                    <span class="w-80 md:w-80"></span>
+                </div>
+            </div>
+            <div class="flex items-center space-x-4 ml-auto pr-32">
+                <a href="#">
+                    <img class="w-14 h-14 rounded-full" src="icon.png" alt="Profile Picture">
+                </a>
+                <span class="text-lg text-gray-500">Juan Dela Cruz </span>
+            </div>
+        </nav>
+        <div class="flex h-screen">
+            <nav class="flex flex-col bg-indigo-800 text-white py-4 px-4 w-64">
+                <div class="flex items-center justify-center">
+                    <div class="w-52 h-16 text-white text-2xl font-extrabold leading-10">GUIDANCE PORTAL</div>
+                </div>
+                <a href="counselor_req.html" class="flex items-center mt-20 ml-4">
+                    <img class="w-8 h-8 rounded-xl" src="meet-req.png">
+                    <span class="text-xl font-normal leading-7 text-white hover:text-gray-300 transition duration-300 ml-2">Appointment Requests</span>
+                </a>
+                <a href="counselor_appoint.html" class="flex items-center mt-8 ml-4">
+                    <img class="w-8 h-8 rounded-xl" src="appoint1.png">
+                    <span class="text-xl font-normal leading-7 text-white hover:text-gray-300 transition duration-300 ml-2">Appoint a Student</span>
+                </a>
+                <a href="counselor_sched.html" class="flex items-center mt-8 ml-4">
+                    <img class="w-8 h-8 rounded-xl" src="sched.png">
+                    <span class="text-xl font-normal leading-7 text-white hover:text-gray-300 transition duration-300 ml-2">My schedule</span>
+                </a>
+                <a href="counselor_events.html" class="flex items-center mt-8 ml-4">
+                    <img class="w-8 h-8 rounded-xl" src="events.png">
+                    <span class="text-xl font-normal leading-7 text-white hover:text-gray-300 transition duration-300 ml-2">Events</span>
+                </a>
+                <a href="counselor_history.html" class="flex items-center mt-8 ml-4">
+                    <img class="w-8 h-8 rounded-xl" src="history.png">
+                    <span class="text-xl font-normal leading-7 text-white hover:text-gray-300 transition duration-300 ml-2">History</span>
+                </a>
+            </nav>
+            <main class="flex-grow p-8 flex items-center justify-center">
+                <div class="h-full w-full mx-auto bg-white p-6 rounded-xl shadow-md">
+                    <div class="flex justify-center">
+                        <div class="mt-8 mix-blend-darken text-cyan-700 text-4xl font-bold font-['Nunito Sans']">
+                            Requests 
+                        </div>
+                    </div>
+                    <div class="mt-8">
+                        <div class="border-b border-gray-200">
+                            <nav class="flex">
+                                <button class="w-full py-4 px-6 text-gray-600 hover:text-gray-800 font-medium border-b-2 border-transparent focus:outline-none focus:border-indigo-500 text-xl">Students</button>
+                                <button class="w-full py-4 px-6 text-gray-600 hover:text-gray-800 font-medium border-b-2 border-transparent focus:outline-none focus:border-indigo-500 text-xl">Employees</button>
+                                <button class="w-full py-4 px-6 text-gray-600 hover:text-gray-800 font-medium border-b-2 border-transparent focus:outline-none focus:border-indigo-500 text-xl">Heads</button>
+                            </nav>
+                        </div>
+                        <div class="mt-8">
+                            <div class="mt-8">  
+                                <table class="w-full border-collapse">
+                                    <thead class="bg-gray-200 text-gray-700 text-lg">
+                                        <tr>
+                                            <th class="border-b border-gray-300 px-4 py-2">Request No</th>
+                                            <th class="border-b border-gray-300 px-4 py-2">Name</th>
+                                            <th class="border-b border-gray-300 px-4 py-2">Age</th>
+                                            <th class="border-b border-gray-300 px-4 py-2">Course</th>
+                                            <th class="border-b border-gray-300 px-4 py-2">View Appointment</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="text-gray-800 text-lg">
+                                        <tr class="hover:bg-gray-100">
+                                            <td class="border-b border-gray-300 px-4 py-2">Row 1, Cell 1</td>
+                                            <td class="border-b border-gray-300 px-4 py-2">Row 1, Cell 2</td>
+                                            <td class="border-b border-gray-300 px-4 py-2">Row 1, Cell 3</td>
+                                            <td class="border-b border-gray-300 px-4 py-2">Row 1, Cell 4</td>
+                                            <td class="border-b border-gray-300 px-4 py-2">Row 1, Cell 5</td>
+                                        </tr>
+                                        <tr class="hover:bg-gray-100">
+                                            <td class="border-b border-gray-300 px-4 py-2">Row 2, Cell 1</td>
+                                            <td class="border-b border-gray-300 px-4 py-2">Row 2, Cell 2</td>
+                                            <td class="border-b border-gray-300 px-4 py-2">Row 2, Cell 3</td>
+                                            <td class="border-b border-gray-300 px-4 py-2">Row 2, Cell 4</td>
+                                            <td class="border-b border-gray-300 px-4 py-2">Row 2, Cell 5</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>                            
+                            <div class="hidden">Content for Tab 2</div>
+                            <div class="hidden">Content for Tab 3</div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+    
+</html>

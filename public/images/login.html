@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="ms-24 mt-12" style="display:flex; width: 1549px; height: 978px;">
+        <div class="w-96 h-96 bg-white rounded-tl-xl rounded-bl-xl div_loin" style="width: 733px; height: 978px; background: white; border-top-left-radius: 12.49px;">
+            <div>
+                <div class="w-96 h-20 relative ml-32 mt-24">
+                    <img class="w-20 h-20 left-0 top-0 absolute rounded-xl absolute" src="plm_logo.png" />
+                    <img class="w-80 h-14 left-[100.62px] top-[17.49px] absolute " src="plm_name.png" />
+                </div>
+                <div class="w-96 h-20 flex-col gap-4 inline-flex ml-32 mt-12">
+                    <div class="w-96 text-cyan-700 text-6xl font-bold font-['Inter'] leading-9">PLM Module</div>
+                    <div class="w-96 text-cyan-700 text-4xl font-medium font-['Inter'] leading-9">Sign In</div>
+                </div>       
+                <form class="w-96 h-96 flex-col justify-start items-center gap-6 inline-flex ml-32 mt-16">
+                    <div class="flex-col justify-start items-start gap-6 flex">
+                        <div class="flex-col gap-3 flex">
+                            <label for="username" class="w-96 h-7 text-zinc-900 text-xl font-normal font-['Inter'] leading-9">Username</label>
+                            <div class="flex-col justify-start items-start gap-2.5 flex">
+                                <input type="text" id="username" class="w-full h-12 px-4 bg-white rounded-md border border-slate-500 text-slate-400 text-lg font-normal font-['Inter']" placeholder="Enter your username">
+                            </div>
+                        </div>
+                        <div class="flex-col gap-3 flex">
+                            <label for="password" class="w-96 h-7 text-zinc-900 text-xl font-normal font-['Inter'] leading-9">Password</label>
+                            <div class="flex-col justify-start items-start gap-2.5 flex relative">
+                                <input type="password" id="password" class="w-full h-12 px-4 bg-white rounded-md border border-slate-500 text-slate-400 text-lg font-normal font-['Inter'] pr-12" placeholder="Enter your password">
+                                <div class="absolute right-4 top-3 cursor-pointer">
+                                    <img class="w-6 h-6" src="plm_logo.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-col justify-start items-start gap-5 flex">
+                        <div class="justify-start items-center gap-5 inline-flex">
+                            <input type="checkbox" class="w-6 h-6">
+                            <div class="w-72 text-zinc-900 text-base font-light font-['Inter'] leading-9">Keep me signed in</div>
+                        </div>
+                        <button type="submit" class="w-96 h-14 px-5 py-2.5 bg-blue-600 hover:bg-blue-700 focus:bg-blue-700 rounded shadow text-white text-2xl font-bold font-inter leading-normal active:bg-blue-800 active:shadow-md">Login</button>
+                    </div>
+                    <div class="flex-col justify-start items-center flex">
+                        <div class="flex items-center gap-2.5">
+                            <div class="w-28 opacity-25 border border-slate-600"></div>
+                            <div class="p-2.5 bg-white text-center text-zinc-400 text-lg font-normal font-['Inter'] leading-normal">or sign in with</div>
+                            <div class="w-28 opacity-25 border border-slate-600"></div>
+                        </div>                        
+                    </div>
+                    <button type="submit" class="w-96 h-14 px-5 py-2.5 rounded shadow text-white text-2xl font-bold font-inter leading-normal active:shadow-md justify-end items-start gap-4 inline-flex">
+                        <img class="w-6 h-7" src="microsoft.png" alt="Microsoft Logo">
+                        <div class="w-64 text-center text-slate-600 text-xl font-normal font-['Inter'] leading-7">Continue with Microsoft</div>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div style="flex: 1;">
+            <img class="w-96 h-96 rounded-tr-xl rounded-br-xl" src="plm.png" style="width: 733px; height: 978px; border-top-right-radius: 12.49px;"/>
+        </div>
+    </div>
+</body>
+</html> 
