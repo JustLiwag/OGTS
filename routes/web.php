@@ -23,7 +23,7 @@ Route::delete('/student/{student}/delete', [StudentController::class, 'destroy']
 Route::get('/student/login', [StudentController::class, 'login'])->name('ogts.login');
 
 
-Route::view('/', 'welcome');s
+Route::view('/', 'welcome');
 
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
